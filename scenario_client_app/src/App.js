@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Circle from './circle.js';
+import ProcessIcon from './processIcon.js';
 
 function App() {
   return (
     <div className="app-global">
         <h1 className='app-header'>רשימת משימות של אורי אלקלעי</h1>
-        <Circle isActive='true'></Circle>
-      </div>
+        <ProcessIcon></ProcessIcon>
+    </div>
   );
 }
 
