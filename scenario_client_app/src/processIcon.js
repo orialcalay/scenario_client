@@ -5,14 +5,17 @@ import Circle from './circle.js';
 export default function ProcessIcon() {
     
     return (
-        <div>
-            <Circle initialState='true'></Circle>
+        <div className='process-icon'>
+            <Circle initialState='true' text='נהג עצור'></Circle>
             <div className='line-style'></div>
-            <Circle initialState='false'></Circle>
+            <i className='arrow-down'></i>
+            <Circle initialState='false' text='נהג סע'></Circle>
             <div className='line-style'></div>
-            <Circle initialState='false'></Circle>
+            <i className='arrow-down'></i>
+            <Circle initialState='false' text='צלב על'></Circle>
             <div className='line-style'></div>
-            <Circle initialState='false'></Circle>
+            <i className='arrow-down'></i>
+            <Circle initialState='false' text='ירי'></Circle>
         </div>
     );
   }

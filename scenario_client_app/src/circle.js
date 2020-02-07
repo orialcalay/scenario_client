@@ -10,7 +10,7 @@ export default function Circle({initialState, text}) {
     }
     return (
         <div className={className}>
-            <span className='circle-text'>נהג עצור</span>
+            <span className='circle-text'>{text}</span>
         </div>
     );
   }
