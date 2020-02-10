@@ -5,7 +5,7 @@ export default function Circle({initialState, text}) {
     const [isActive] = useState(initialState);
 
     let className = 'circle-style';
-    if(isActive == 'true'){
+    if(isActive){
         className += ' circle-active';
     }
     return (
