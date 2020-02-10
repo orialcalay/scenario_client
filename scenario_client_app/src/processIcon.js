@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './processIcon.css';
-import Circle from './circle.js';
+import Circle from './General/circle.js';
 
 export default function ProcessIcon({state1, state2, state3, state4}) {
     

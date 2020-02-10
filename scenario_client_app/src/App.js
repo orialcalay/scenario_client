@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import './App.css';
 import ProcessIcon from './processIcon.js';
 import NavBar from './navBar.js';
-import AlertMessage from './alertMessage';
+import AlertMessage from './General/alertMessage';
+import CountdownTimer from './General/countdownTimer';
 
 function App() {
 
@@ -14,8 +15,7 @@ function App() {
 
   return (
     <div className="app-global">
-        {/* <h1 className='app-header'>רשימת משימות של אורי אלקלעי</h1> */}
-        {/* <ProcessIcon></ProcessIcon> */}
+        <CountdownTimer></CountdownTimer>
         <NavBar clickHandler={clickHandler}></NavBar>
         <ProcessIcon state1={state1}></ProcessIcon>
         <AlertMessage></AlertMessage>
