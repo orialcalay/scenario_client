@@ -10,7 +10,7 @@ function App() {
   const [state1, setState1] = useState(true);
 
   function clickHandler(ori){
-    setState1(false);
+    setState1(!state1);
   }
 
   return (
