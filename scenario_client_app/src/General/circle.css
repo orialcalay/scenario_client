@@ -1,0 +1,16 @@
+.circle-style{
+    background-color: rgba(128, 128, 128, 0.33);
+    border-radius: 35px;
+    width:70px;
+    height:70px;
+}
+
+.circle-style.circle-active {
+    background-color: #807900b8;
+}
+
+.circle-text{
+    font-weight: 10px;
+    text-shadow: 1px 1px 2px pink;
+    vertical-align: middle;
+}
