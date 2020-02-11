@@ -2,10 +2,9 @@ import React, {useState} from 'react';
 import './circle.css';
 
 export default function Circle({initialState, text}) {
-    const [isActive] = useState(initialState);
-
+    
     let className = 'circle-style';
-    if(initialState.state1){
+    if(initialState){
         className += ' circle-active';
     }
     return (
