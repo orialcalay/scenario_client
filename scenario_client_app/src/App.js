@@ -3,7 +3,7 @@ import './App.css';
 import ProcessIcon from './processIcon.js';
 import NavBar from './navBar.js';
 import AlertMessage from './General/alertMessage';
-import CountdownTimer from './General/countdownTimer';
+import Countdown from "./General/Countdown";
 
 function App() {
 
@@ -32,10 +32,10 @@ function App() {
   }
   return (
     <div className="app-global">
-        <CountdownTimer></CountdownTimer>
         <NavBar clickHandler={clickHandler}></NavBar>
         <ProcessIcon state1={state1} state2={state2} state3={state3} state4={state4}></ProcessIcon>
-        <AlertMessage isOpen={isOpen}></AlertMessage>
+        <Countdown isOpen={isOpen} />
+        <AlertMessage isOpen={isOpen} />
     </div>
   );
 }
